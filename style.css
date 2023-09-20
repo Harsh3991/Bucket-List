@@ -1,0 +1,97 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#container{
+    background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/bucket-list-bg%5B1%5D.png);
+    height: 40vh;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#heading{
+    color: white;
+    padding-top: 70px;
+}
+
+#input-box{
+    width: 270px;
+    margin: auto;
+    position: relative;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#input-tag{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding-left: 7px;
+}
+
+#add-btn{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 70px;
+    border-radius: 20px;
+    background-color: #F7BE3B;
+    font-weight: bold;
+}
+
+#heading2, #description{
+    text-align: center;
+}
+
+#heading2{
+    margin-top: 50px;
+}
+
+#description{
+    margin-top: 30px;
+}
+
+#list-container{
+    width: 33%;
+    margin: auto;
+    padding: 2%;
+}
+
+.list-box{
+    border: 2px solid gray;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 22px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.tick-mark-img{
+    width: 25px;
+    height: 20px;
+}
+
+#reset-btn{
+    display: block;
+    margin: auto;
+    background-color: #F7BE3B;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 20px;
+    font-weight: bold;
+    border: none;
+}
+
+#last-text{
+    margin-top: 30px;
+    text-align: center;
+}
